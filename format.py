@@ -9,9 +9,9 @@ count = 0
 # get picture files with name
 picture_files = glob.glob('obj/*.jpg', recursive=True)
 with open("./train.txt", mode='w') as f:
-    for p in picture_files:
+    for p in picture_files:    
         p_basename = os.path.basename(p)
-
+        
         f.write(basename.format(p_basename))
         print(p)
 

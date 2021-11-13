@@ -10,6 +10,10 @@ need_list = list()
 text_files = glob.glob('datasets/**/*.txt', recursive=True)
 for t in text_files:
     t_basename = os.path.basename(t)
+    # if txt had copied
+    if os.path.exists("./obj/{}".format(t_basename)):
+        print("{} is already existed".format(t_basename))
+        continue
     # copy
     shutil.copyfile(t, "./obj/{}".format(t_basename))
     # push to need list
