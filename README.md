@@ -1,4 +1,5 @@
 # yolotinyv4_custom_dataset
+---
 
 Helper repository to train tiny yolo v4 on custom data in Google Colaboratory notebook.
 
@@ -7,6 +8,8 @@ Helper repository to train tiny yolo v4 on custom data in Google Colaboratory no
 2. Clone the repository on your local PC and put images(.jpg) and annotations(.txt) into _obj_ folder in cloned repository.
 3. Push the repository containing images and annotations of objects you want to detect.
 4. Clone the updated repository in Google Colaboratory notebook.
+
+---
 
 カスタムデータセットを用いた，Yolov4-tinyのファインチューニング用Google Colaboratory notebookに用いる補助リポジトリです．
 
