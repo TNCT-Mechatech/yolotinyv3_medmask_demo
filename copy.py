@@ -35,4 +35,4 @@ for p in picture_files:
 
     print("{0} {1}".format(p ,p_basename))
 
-    
+print("count: {}".format(len(text_files)))
