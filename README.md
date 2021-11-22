@@ -17,8 +17,8 @@ Please avoid to edit obj.data or obj.names directly, or it may cause errors.
 カスタムデータセットを用いた，Yolov4-tinyのファインチューニング用Google Colaboratory notebookに用いる補助リポジトリです．
 
 ## 使用方法
-1. このリポジトリをフォークして，名前を変更する(例. yolotinyv4_robocon2021).
-2. ローカルPCにリポジトリをクローンし，画像ファイル(.jpg)とアノテーションファイル(.txt)を，クローンしたリポジトリ内にある _obj_ フォルダーに入れる．
+1. このリポジトリに新しくブランチを作成する(例. yolotinyv4_robocon2021).
+2. ローカルPCにリポジトリをクローンし，新しく作成したブランチに切り替え、画像ファイル(.jpg)とアノテーションファイル(.txt)を，クローンしたリポジトリ内にある _obj_ フォルダーに入れる．
 3. 検出したい物体の画像やアノテーションファイルが入ったリポジトリをプッシュ．
 4. 更新したリポジトリを，Google Colaboratory notebook内でクローンする．
 
